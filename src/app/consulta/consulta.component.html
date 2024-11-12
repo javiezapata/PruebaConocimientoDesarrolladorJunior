@@ -1,0 +1,13 @@
+    
+<div class="container">
+    <h1>Buscar por ID</h1>
+    <form [formGroup]="consultForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>ID</mat-label>
+        <input matInput formControlName="id">
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit">Buscar</button>
+    </form>
+  </div>
+  
